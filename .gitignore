@@ -1,6 +1,7 @@
 *~
 *.swp
 *.swo
+!values-secret.yaml.template
 values-secret*
 .*.expected.yaml
 pattern-vault.init

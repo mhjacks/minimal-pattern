@@ -12,12 +12,11 @@ help:
 	make -f common/Makefile $*
 
 .PHONY: install
-install: operator-deploy post-install ## installs the pattern and loads the secrets
+install: operator-deploy ## installs the pattern and loads the secrets
 	@echo "Installed"
 
 .PHONY: post-install
 post-install: ## Post-install tasks
-	make load-secrets
 	@echo "Done"
 
 .PHONY: test

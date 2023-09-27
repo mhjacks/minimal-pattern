@@ -18,6 +18,10 @@ data:
             <h2>
             Hub Cluster domain is '{{ .Values.global.hubClusterDomain }}' <br>
             Pod is running on Local Cluster Domain '{{ .Values.global.localClusterDomain }}' <br>
+            <br/>
+            <hr/>
+            Message: '{{ .Values.webpage_message }}'
+            <hr/>
             </h2>
           </body>
       </html>

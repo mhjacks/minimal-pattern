@@ -2,3 +2,7 @@
 global:
   hubClusterDomain: hub.example.com
   localCluster: local.example.com
+
+replicas: 1
+apache_image: 'registry.access.redhat.com/ubi8/httpd-24:1-226'
+webpage_message: 'Hello GitOps!'

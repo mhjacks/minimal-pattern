@@ -11,4 +11,6 @@ spec:
     kind: Service
     name: hello-world
     weight: 100
+  tls:
+    termination: edge
   wildcardPolicy: None

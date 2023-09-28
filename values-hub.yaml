@@ -4,8 +4,6 @@ clusterGroup:
   namespaces:
     - hello-world
 
-  subscriptions: {}
-
   projects:
     - hello-world
 
@@ -15,5 +13,3 @@ clusterGroup:
       namespace: hello-world
       project: hello-world
       path: charts/all/hello-world
-
-  imperative: {}

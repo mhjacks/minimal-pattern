@@ -1,6 +1,6 @@
 ---
 global:
-  pattern: minimal-viable-pattern
+  pattern: minimum-viable-pattern
 
   options:
     useCSV: false
